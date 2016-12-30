@@ -4,7 +4,6 @@
 int main()
 {
     int n;
-    int v[9],i=0;
     FILE *f,*m,*d;
     printf("     SUDOKU    \n \n \n");
     printf("Escolha uma dificuldade:\n facil:1 \n Media: 2 \n Difícil: 3 \n");
