@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+*/ inicio da função principal, com abertura dos arquivos que serão separados,
+    pelo nivel de dificuldade*/
 int main()
 {
     int n;
