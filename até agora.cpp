@@ -73,8 +73,10 @@ void remove(int jogo[][9], int fixo[][9], int x, int y)	{
 	jogo[x][y] = 0;
 	return;
 }
-
-int move(FILE *arq){
+/* funcao move: ao escolher a dificuldade no switch a funcao é chamada dentro do case(ou seja dentro da dificuldade escolhida)
+    ela abre o arquivo com a dificuldade por exemplo facil.txt e ela printa a matriz incompleta desse arquivo,, que serra usada
+    na funcao adiciona*/
+void move(FILE *arq){
 	int matriz[9][9];
 	int i,j;
 	fseek(arq,172,SEEK_SET);
